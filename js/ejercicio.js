@@ -1,4 +1,5 @@
 // EJERCICIOS ARREGLOS
+// Quitar comentarios para visualizar uno a uno
 
 /* 
 // Ejercicio en clase
@@ -28,7 +29,8 @@ for (var i = 0; i < numeros.length; i++) {
 console.log(pares);
 */
 
-
+/* ************************************ */
+/* ************************************ */
 
 /*
 //#1 CALCULANDO DNI /  OK!
@@ -78,9 +80,57 @@ alert("Los meses del año son: " + meses);
 
 
 
-//#4 Opeaciones en Arrays
-var valores = [true, 5, false, "hola", "adios", 2];
+/*
+//#4 Opeaciones en Arrays  /  OK!
+var valores = [true, 5, false, 'hola', 'adios', 2];
+console.log(valores);
+var numero1 = valores[1];
+var numero2 = valores[5];
+var texto1 = valores[3];
+var texto2 = valores[4];
+var bool1 = valores[0];
+var bool2 = valores[2];
+var resultado;
 
+// textos
+resultado = texto1 > texto2;
+alert(texto1+ ' > ' +texto2+ ' = '+resultado);
+console.log(texto1+ ' > ' +texto2+ ' = '+resultado);;  
+
+resultado = texto1 < texto2;
+alert(texto1+ ' < ' +texto2+ ' = '+resultado);
+console.log(texto1+ ' < ' +texto2+ ' = '+resultado);
+
+// booleanos true/false
+resultado = bool1 || bool2;
+alert(bool1+ ' OR ' +bool2+ ' = '+resultado);
+console.log(bool1+ ' OR ' +bool2+ ' = '+resultado);
+
+resultado = bool1 && bool2;
+alert(bool1+ ' AND ' +bool2+ ' = '+resultado);
+console.log(bool1+ ' AND ' +bool2+ ' = '+resultado);
+
+// matematicas  
+resultado = numero1 + numero2;
+alert(numero1+ ' + '+numero2+ ' = '+resultado);
+console.log(numero1+ ' + '+numero2+ ' = '+resultado);
+
+resultado = numero1 - numero2;
+alert(numero1+ ' - '+numero2+ ' = '+resultado);
+console.log(numero1+ ' - '+numero2+ ' = '+resultado);
+
+resultado = numero1 * numero2;
+alert(numero1+ ' * '+numero2+ ' = '+resultado);
+console.log(numero1+ ' * '+numero2+ ' = '+resultado);
+
+resultado = numero1 / numero2;
+alert(numero1+ ' / '+numero2+ ' = '+resultado);
+console.log(numero1+ ' / '+numero2+ ' = '+resultado);
+
+resultado = numero1 % numero2;
+alert(numero1+ ' % '+numero2+ ' = '+resultado);
+console.log(numero1+ ' % '+numero2+ ' = '+resultado);
+*/ 
 
 
 
@@ -96,4 +146,6 @@ suma+=parseInt(s);
 }
 alert ("la suma de " + numeros + " es " + suma);
 */
+
+
 
